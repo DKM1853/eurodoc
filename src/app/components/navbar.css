@@ -1,0 +1,22 @@
+.custom-navbar {
+  max-width: 1400px;
+  margin: 10px auto;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+@media only screen and (min-width: 1023px) and (max-width: 1440px) {
+  .custom-navbar {
+    max-width: 1000px;
+  }
+}
+@media (max-width: 1024px) {
+  .custom-navbar {
+    padding: 10px; /* Adjust the padding for mobile */
+  }
+}
+
+@media (max-width: 640px) {
+  .custom-navbar .container {
+    padding: 0 15px; /* Add padding on smaller screens */
+  }
+}
