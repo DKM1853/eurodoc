@@ -1,0 +1,34 @@
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .image-table-set {
+    display: none;
+  }
+  .right-arrow-set {
+    left: 50%;
+    top: 26%;
+  }
+  .left-arrow-set {
+    right: 20%;
+    top: 61%;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .image-table-set {
+    justify-content: end;
+  }
+  .second-container-set {
+    margin-top: 3%;
+  }
+  .right-arrow-set {
+    left: 48%;
+    top: 28%;
+  }
+  .left-arrow-set {
+    right: 28%;
+    top: 61%;
+  }
+}
+@media only screen and (min-width: 2559px) {
+    .left-arrow-set {
+        right: 40%;
+    }
+}
